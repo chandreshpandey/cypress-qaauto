@@ -1,0 +1,32 @@
+{
+  "name": "cypress-qaauto",
+  "version": "1.0.0",
+  "description": "Cypress QAAuto",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandreshpandey/cypress-qaauto.git"
+  },
+  "keywords": [
+    "cypress",
+    "qaauto",
+    "testing"
+  ],
+  "author": "Chandresh Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandreshpandey/cypress-qaauto/issues"
+  },
+  "homepage": "https://github.com/chandreshpandey/cypress-qaauto#readme",
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  },
+  "dependencies": {
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.1.1"
+  }
+}
